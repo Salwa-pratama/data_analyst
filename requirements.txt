@@ -13,4 +13,4 @@ lxml
 html5lib
 beautifulsoup4
 sqlalchemy
-
+scipy
