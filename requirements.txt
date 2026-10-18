@@ -3,3 +3,14 @@ numpy
 matplotlib
 ipykernel
 seaborn
+scikit-learn
+flask
+python-dotenv
+requests
+openpyxl
+xlrd
+lxml
+html5lib
+beautifulsoup4
+sqlalchemy
+

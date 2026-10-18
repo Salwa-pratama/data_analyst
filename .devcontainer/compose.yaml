@@ -1,0 +1,18 @@
+services:
+  insurance_app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    image: insurance_app
+    container_name: insurance_app
+    command: sleep infinity
+    working_dir: /app
+    volumes:
+      - ../:/app:Z
+    ports:
+      - "1515:8080"
+    env_file:
+      - ../.env
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
